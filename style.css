@@ -1,17 +1,34 @@
-* {
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #F0F2F5;
-    font-size: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-}
-
-.main-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #F0F2F5;
+        font-size: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    }
+    
+    .main-container {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .column {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .logo {
+        width: 35%;
+        margin-top: 30%;
+        margin-left: 37%;
+    }
+    
+    .moto {
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-top: 0;
+        margin-left: 40%;
+    }
