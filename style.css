@@ -63,6 +63,23 @@
         border: 1px solid #1877F2;
     }
     
+    .log-in {
+        width: 100%;
+        padding: 0.6em;
+        font-size: 0.8em;
+        margin: 0.5em;
+        border-radius: 0.6em;
+        background-color: #1877F2;
+        border: none;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .log-in:hover {
+        cursor: pointer;
+        background-color: #0d63d4;
+    }
+    
     .moto {
         font-size: 2.5rem;
         font-weight: 500;
