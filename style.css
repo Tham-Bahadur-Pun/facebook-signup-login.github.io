@@ -22,10 +22,45 @@
     }
     /* styling of first column */
     
-    .logo {
+    .logo,
+    .form {
         width: 35%;
         margin-top: 30%;
         margin-left: 37%;
+    }
+    
+    .form {
+        background-color: #FFFFFF;
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 0;
+        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+        font-size: 2em;
+        padding: 0.8em;
+        border-radius: 3%;
+    }
+    
+    .form:hover {
+        cursor: pointer;
+        box-shadow: -1px 3px 33px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -1px 3px 33px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 3px 33px 0px rgba(0, 0, 0, 0.75);
+    }
+    
+    .form input {
+        width: 100%;
+        padding: 0.8em;
+        font-size: 0.8em;
+        border: none;
+        margin: 0.5em;
+        border: 0.05em solid rgb(180, 175, 175);
+        border-radius: 3%;
+    }
+    
+    input[type=text]:focus {
+        border: 1px solid #1877F2;
     }
     
     .moto {
