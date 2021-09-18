@@ -80,6 +80,17 @@
         background-color: #0d63d4;
     }
     
+    .forget {
+        text-align: center;
+        font-size: 0.7em;
+        color: #1877F2;
+        margin-bottom: 0.8em;
+    }
+    
+    .forget:hover {
+        text-decoration: underline;
+    }
+    
     .moto {
         font-size: 2.5rem;
         font-weight: 500;
