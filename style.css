@@ -14,11 +14,13 @@
         width: 100vw;
         height: 100vh;
     }
+    /* column styling */
     
     .column {
         width: 50%;
         height: 100%;
     }
+    /* styling of first column */
     
     .logo {
         width: 35%;
