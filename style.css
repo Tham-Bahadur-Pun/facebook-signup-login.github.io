@@ -33,7 +33,7 @@
         background-color: #FFFFFF;
         width: 50%;
         margin-top: 20%;
-        margin-left: 0;
+        margin-left: 5em;
         box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
         -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
@@ -63,7 +63,8 @@
         border: 1px solid #1877F2;
     }
     
-    .log-in {
+    .log-in,
+    .create-btn {
         width: 100%;
         padding: 0.6em;
         font-size: 0.8em;
@@ -91,9 +92,40 @@
         text-decoration: underline;
     }
     
+    .line {
+        border: 0.1px solid rgb(180, 175, 175);
+    }
+    
+    .create-btn {
+        display: flex;
+        align-items: center;
+        width: 55%;
+        background-color: #42B72A;
+        text-align: center;
+        font-size: 0.7em;
+        margin: 1em auto;
+    }
+    
+    .create-btn:hover {
+        cursor: pointer;
+        background-color: #329e1c;
+    }
+    
     .moto {
         font-size: 2.5rem;
         font-weight: 500;
         margin-top: 0;
         margin-left: 40%;
+    }
+    
+    .celebrity {
+        font-size: 1.3em;
+        margin-top: 1em;
+        margin-left: 14em;
+    }
+    
+    .celebrity a {
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
     }
