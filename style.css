@@ -145,13 +145,19 @@
         }
         .column {
             width: 100%;
-            margin: 0 auto;
+            text-align: center;
         }
         .logo {
-            margin: 0 auto;
-            padding: 0;
+            position: relative;
+            left: 10em;
+            bottom: 0;
+            width: 60%;
+            margin-top: 0;
+            margin-left: 0;
         }
         .moto {
+            position: relative;
+            top: -1.5em;
             width: 75%;
             margin: 0 auto;
             text-align: center;
