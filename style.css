@@ -1,0 +1,178 @@
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #F0F2F5;
+        font-size: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    }
+    
+    .main-container {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+    /* column styling */
+    
+    .column {
+        width: 50%;
+        height: 100%;
+    }
+    /* styling of first column */
+    
+    .logo,
+    .form {
+        width: 35%;
+        margin-top: 30%;
+        margin-left: 37%;
+    }
+    
+    .form {
+        background-color: #FFFFFF;
+        width: 50%;
+        margin-top: 20%;
+        margin-left: 5em;
+        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+        font-size: 2em;
+        padding: 0.8em;
+        border-radius: 3%;
+    }
+    
+    .form:hover {
+        cursor: pointer;
+        box-shadow: -1px 3px 33px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: -1px 3px 33px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 3px 33px 0px rgba(0, 0, 0, 0.75);
+    }
+    
+    .form input {
+        width: 100%;
+        padding: 0.8em;
+        font-size: 0.8em;
+        border: none;
+        margin: 0.5em;
+        border: 0.05em solid rgb(180, 175, 175);
+        border-radius: 3%;
+    }
+    
+    input[type=text]:focus {
+        border: 1px solid #1877F2;
+    }
+    
+    .log-in,
+    .create-btn {
+        width: 100%;
+        padding: 0.6em;
+        font-size: 0.8em;
+        margin: 0.5em;
+        border-radius: 0.6em;
+        background-color: #1877F2;
+        border: none;
+        color: white;
+        font-weight: 700;
+    }
+    
+    .log-in:hover {
+        cursor: pointer;
+        background-color: #0d63d4;
+    }
+    
+    .forget {
+        text-align: center;
+        font-size: 0.7em;
+        color: #1877F2;
+        margin-bottom: 0.8em;
+    }
+    
+    .forget:hover {
+        text-decoration: underline;
+    }
+    
+    .line {
+        border: 0.1px solid rgb(180, 175, 175);
+    }
+    
+    .create-btn {
+        display: flex;
+        align-items: center;
+        width: 55%;
+        background-color: #42B72A;
+        text-align: center;
+        font-size: 0.7em;
+        margin: 1em auto;
+    }
+    
+    .create-btn:hover {
+        cursor: pointer;
+        background-color: #329e1c;
+    }
+    
+    .moto {
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-top: 0;
+        margin-left: 40%;
+    }
+    
+    .celebrity {
+        font-size: 1.3em;
+        margin-top: 2em;
+        margin-left: 14em;
+    }
+    
+    .celebrity a {
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    .celebrity a:hover {
+        text-decoration: underline;
+    }
+    /* responsiveness */
+    
+    @media only screen and (max-width:900px) {
+        .main-container {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .column {
+            width: 100%;
+            text-align: center;
+        }
+        .logo {
+            position: relative;
+            left: 10em;
+            bottom: 0;
+            width: 60%;
+            margin-top: 0;
+            margin-left: 0;
+        }
+        .moto {
+            position: relative;
+            top: -1.5em;
+            width: 75%;
+            margin: 0 auto;
+            text-align: center;
+            letter-spacing: normal;
+            word-spacing: normal;
+            font-size: 2rem;
+            font-weight: 500;
+            padding: 1em;
+        }
+        .form {
+            margin: 0 auto;
+        }
+        .celebrity {
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 1em;
+        }
+    }
